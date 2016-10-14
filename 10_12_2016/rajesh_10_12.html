@@ -1,0 +1,112 @@
+<!--main document type of the web page-->
+<!DOCTYPE html>
+
+<!--default html language to be english-->
+<html lang="en">
+
+    <!--head of the web page-->
+    <head>
+        <!--title - this is the title of this html file-->
+        <title>EmployeeForm</title>
+        <!--style - this is used to write CSS style on the html file itself-->
+        <style>
+            body{
+                background-color: #eeeeee;
+            }
+        </style>
+        <!--script - this is used to write javascript on the html file itself-->
+        <script>
+
+        </script>
+        <!--link - this is used to link an external source-->
+        <!--this is used to source only css files and images-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+        <!--base - this used to specify the base URL of our web page-->
+        <!--this is optional and to be written based on server configuration-->
+        <base href="/home" />
+
+        <!--meta - this is used to describe more mata information which are not covered by the above five-->
+        <meta name="description" content="This is the official site of employee form"/>
+        <meta name="keywords" content="employee, employment, employee form, form, applicant" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+    </head>
+
+    <!--body of the web page-->
+    <!--body is the rendering part of the html-->
+    <body>
+
+        <!--main article for forms-->
+        <article>
+
+            <!--page header-->
+            <header>
+                <h1>Welcome to my website!</h1>
+            </header>
+
+            <!--main body of the page-->
+            <section>
+                <!--form for employess in office-->
+                <form name="newEmployeeForm">
+                    <!--First Name-->
+                    <div>
+                        <label for="firstName">Employee's First Name:</label>
+                        <input type="text" id="firstName" name="fName" placeholder="Enter your First Name"/>
+                    </div>
+                    <br />
+                    <!--Last Name-->
+                    <div>
+                        <label for="lastName">Employee's Last Name:</label>
+                        <input type="text" id="lastName" name="lName" placeholder="Enter your Last Name" />
+                    </div>
+                    <br />
+                    <!--Phone Number-->
+                    <div>
+                        <label for="phoneNumber">Employee's Phone Number:</label>
+                        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" />
+                    </div>
+                    <br />
+                    <!--Gender-->
+                    <div>
+                        <label for="gender">Employee's Gender:</label>
+                        <div id="gender">
+                            <!--male-->
+                            <label for="male">Male:</label>
+                            <input type="radio" id="male" name="gender" value="Male"/>
+
+                            <!--female-->
+                            <label for="female">Female:</label>
+                            <input type="radio" id="female" name="gender" value="Female"/>
+                        </div>
+                    </div>
+                    <br />
+                    <!--Email and Password-->
+                    <div>
+                        <label for="Email">Employee's Email:</label>
+                        <input type="text" id="e-mail" name="e-mail" placeholder="Enter your Email id" />
+                    </div>
+                    <div>
+                        <label for="Password">Employee's Password:</label>
+                        <input type="password" id="Password" name="Password" placeholder="Enter your Password" />
+                    </div>
+                    <!--submit button-->
+                    <button type="submit" id="submit" class="btn btn-primary">
+                        <span>Submit</span>
+                    </button>
+                    <!--reset/cancel-->
+                    <button type="reset" id="reset">
+                        <span>Cancel</span>
+                    </button>
+                </form>
+
+
+                </section>
+
+            <!--footer of the page-->
+            <footer>
+                I'm at the bottom
+            </footer>
+        </article>
+    </body>
+</html>
