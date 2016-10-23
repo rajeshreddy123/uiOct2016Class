@@ -1,0 +1,39 @@
+
+ul > li {
+    background-color: #ff00f1;
+	display: inline;
+}
+div > input {
+    background-color: #ecdce7;
+}
+form ~ div {
+    background-color: #cdf9f9;
+}
+#submit {
+	margin:3px 0px 1px 0px;
+	background: #72edee;
+	color: white;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 30px;
+	width: 100px;
+	font: bold 15px arial, sans-serif;
+
+}
+#reset {
+	margin:1px;
+	background: #ff0000;
+	color: #000000;
+	border-style: outset;
+	border-color: #0066A2;
+	height: 30px;
+	width: 100px;
+	font: bold 15px arial, sans-serif;
+
+}
+#submit:hover{
+	background: blue;
+}
+#reset:hover{
+	background: green;
+}
