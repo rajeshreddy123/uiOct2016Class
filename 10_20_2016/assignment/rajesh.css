@@ -38,7 +38,7 @@ form ~ div {
 
 }
 #submit:hover{
-	background: blue;
+	background: #ffff00;
 }
 #reset:hover{
 	background: green;

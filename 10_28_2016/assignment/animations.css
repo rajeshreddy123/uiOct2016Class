@@ -1,0 +1,39 @@
+@-webkit-keyframes title {
+    0% {font-size: 20px; font-weight: 900; color: #c5ddaa;}
+    50% {font-size: 40px; font-weight: 300;color: #4CAF50; }
+    100% {font-size: 20px; font-weight: 900; color: #c5ddaa;}
+}
+@-webkit-keyframes left1 {
+ 0% {left: 80px; top: 180px; position: relative;}
+ 25% {left: 220px; top: 180px; position: relative;}
+ 50% {left: 220px; top: 420px; position: relative;}
+ 75% {left: 110px; top: 420px; position: relative;}
+ 100% {left: 80px; top: 180px; position: relative;}
+
+}
+
+
+@-webkit-keyframes right1 {
+ 0% {left: 1120px; top: 180px; position: absolute;}
+ 25% {left: 980px; top: 180px; position: absolute;}
+ 50% {left: 980px; top: 420px; position: absolute;}
+ 75% {left: 1120px; top: 420px; position: absolute;}
+ 100% {left: 1120px; top: 180px; position: absolute;}
+
+}
+
+
+.left {
+   -webkit-animation: left1 3s infinite;
+}
+
+.right {
+   -webkit-animation: right1 3s infinite;
+}
+
+#h3 {
+  -webkit-animation: title 3s infinite;
+ 
+}
+
+  
