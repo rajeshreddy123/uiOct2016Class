@@ -1,3 +1,24 @@
+.container:before,
+.container:after,
+.row:before,
+.row:after{
+    display: table;
+    content: " ";
+}
+.container{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+ }
+.container:after,
+.row:after{
+   clear: both;
+ }
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5,

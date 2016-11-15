@@ -1,0 +1,22 @@
+.breadcrumb{
+
+        height: 18px;
+        width: 303px;
+    padding:8px 15px;
+    margin-bottom:20px;
+    list-style:none;
+    background-color:#99d6ff;
+    border-radius:4px;
+    text-decoration:none;
+    &>li{
+     display:inline-block
+    }
+    &>li+li:before{
+    padding:0 5px;
+    color:#ccc;
+    content:"|"
+    }
+    &>.active{
+    color:#777
+    }
+}
